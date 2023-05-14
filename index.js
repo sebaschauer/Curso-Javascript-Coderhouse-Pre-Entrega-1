@@ -8,8 +8,8 @@ function validarDatos (dia,fecha){
     let validar = true;
     verif = dia - fecha;
 if (isNaN(fecha) && fecha<dia || verif>=18){
-    alert('Bienvenidos a la Tienda');
-    console.log('Bienvenidos a la Tienda');
+    alert('Bienvenidos a la Tienda Cervecera');
+    console.log('Bienvenidos a la Tienda Cervecera');
     ingresarProducto(producto, cantidad, preciouni,precioTotal,totalApagar);
 }
 else {
